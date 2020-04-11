@@ -1,7 +1,4 @@
-  
-Write-Host "Attempting to deploy" 
-
-# Change directory to git
+  # Change directory to git
 cd $PSScriptRoot
 
 # Build the Vue App
@@ -26,5 +23,3 @@ git push -f https://github.com/jkruskie/jkruskie.github.io.git master
 
 # Go back to the starting directory.
 cd ..
-
-Write-Host "\n\n\nDeployed properly with message '$message'" 
