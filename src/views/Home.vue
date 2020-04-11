@@ -40,14 +40,10 @@
         </template>
         <template #right>
           <Contact
-            name="Justin Kruskie"
-            street="W Hampton Rd"
-            :number="1091"
-            city="Essexville"
-            state="Michigan"
-            zip="48732"
             email="justin@jkruskie.com"
             phone="(989) 392-0446"
+            discord="ImJK#8937"
+            discordserver="https://discord.gg/vNNu9km"
           />
         </template>
       </TwoColumn>
@@ -62,7 +58,7 @@
           href="https://github.com/jkruskie/VoicED-AAC-Web"
         >
           <ProjectTag language="PHP" icon="php-plain" />
-          <ProjectTag language="GitHub" icon="github-plain" />
+          <!-- <ProjectTag language="GitHub" icon="github-plain" /> -->
         </Project>
       </Projects>
     </Page>

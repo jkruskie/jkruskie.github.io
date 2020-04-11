@@ -41,6 +41,13 @@
       >
         <font-awesome-icon :icon="linkedinIcon" />
       </a>
+      <a
+        href="https://discord.gg/vNNu9km"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <font-awesome-icon :icon="discordIcon" />
+      </a>
     </div>
   </div>
 </template>
@@ -50,11 +57,13 @@ import { Component, Vue } from "vue-property-decorator";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 @Component({ components: { FontAwesomeIcon } })
 export default class Elevator extends Vue {
   githubIcon = faGithub;
   linkedinIcon = faLinkedin;
+  discordIcon = faDiscord;
 }
 </script>
 
