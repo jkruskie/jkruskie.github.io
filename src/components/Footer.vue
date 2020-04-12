@@ -18,6 +18,9 @@
         >
           <img :src="digitalocean" alt="Digitalocean Logo" />
         </a> -->
+        <a href="https://www.abuseipdb.com/user/36024" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks" alt="AbuseIPDB Contributor Badge">
+          <img src="https://www.abuseipdb.com/contributor/36024.svg" style="width: 15rem;">
+        </a>
       </section>
     </div>
   </footer>

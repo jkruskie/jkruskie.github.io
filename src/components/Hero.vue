@@ -41,7 +41,6 @@ export default class Hero extends Vue {
 <style lang="scss" scoped>
 .hero {
   @apply relative;
-  @apply w-screen;
   @apply h-screen;
 
   @apply bg-accent;
