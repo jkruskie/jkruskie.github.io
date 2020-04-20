@@ -1,6 +1,8 @@
 import Vue from "vue";
+// eslint-disable-next-line
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
+// eslint-disable-next-line
 import { Dictionary } from "vue-router/types/router";
 
 Vue.use(VueRouter);

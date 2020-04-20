@@ -10,6 +10,7 @@
         <Navigation>
           <NavigationItem href="#about">ABOUT ME</NavigationItem>
           <NavigationItem href="#projects">PROJECTS</NavigationItem>
+          <NavigationItem href="//resume.jkruskie.com">RESUME</NavigationItem>
         </Navigation>
       </template>
       <template #elevator>
