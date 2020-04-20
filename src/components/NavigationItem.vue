@@ -14,10 +14,14 @@ export default class NaviagtionItem extends Vue {
   @Prop({ required: true }) readonly href!: string;
 
   private onClick({ currentTarget }: MouseEvent) {
-    const id = (currentTarget as HTMLAnchorElement).href.split("#")[1];
-    const elem = document.getElementById(id);
-
-    if (elem !== null) elem.scrollIntoView({ behavior: "smooth" });
+    if((currentTarget as HTMLAnchorElement).href.includes("#")) {
+      const id = (currentTarget as HTMLAnchorElement).href.split("#")[1];
+      const elem = document.getElementById(id);
+  
+      if (elem !== null) elem.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.open((currentTarget as HTMLAnchorElement).href)
+    }
   }
 }
 </script>
