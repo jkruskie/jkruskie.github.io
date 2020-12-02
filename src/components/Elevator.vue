@@ -8,23 +8,8 @@
     <div class="elevator-description">
       <h1>Justin Kruskie</h1>
       <h2>
-        Develoer
-        <a
-          href="https://nsoit.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >@ NetSource One</a
-        >.
+        Freelance Developer
       </h2>
-      <!-- <h2>
-        Founder
-        <a
-          href="https://nsoit.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >@ J. Kruskie</a
-        >.
-      </h2> -->
     </div>
     <div class="elevator-links">
       <a

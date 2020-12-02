@@ -43,7 +43,6 @@
         <template #right>
           <Contact
             email="justin@jkruskie.com"
-            phone="(989) 392-0446"
             discord="ImJK#8937"
             discordserver="https://discord.gg/vNNu9km"
           />
