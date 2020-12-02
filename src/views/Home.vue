@@ -41,7 +41,7 @@
           </About>
         </template>
         <template #right>
-          <Contact
+          <Contact 
             email="justin@jkruskie.com"
             discord="ImJK#8937"
             discordserver="https://discord.gg/vNNu9km"
