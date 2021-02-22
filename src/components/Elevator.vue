@@ -2,7 +2,7 @@
   <div class="elevator">
     <img
       class="elevator-image"
-      src="https://en.gravatar.com/userimage/159876680/c612fdaaa46b783d6c881e545785efd5.jpeg?size=1024"
+      src="https://en.gravatar.com/avatar/a3d329edf71cc06c5a0479965cca0bd5.jpeg?size=1024"
       alt="Gravatar"
     />
     <div class="elevator-description">
