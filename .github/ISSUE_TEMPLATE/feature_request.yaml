@@ -1,0 +1,47 @@
+name: Feature Request
+description: Request for a new feature
+title: "[Feature Request]: "
+labels: ["Feature Request", "to Dev"]
+assignees:
+  - loesel19
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting this Feature Request!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Please provide a detailed description of the requested feature, including the purpose, desired outcome, and any relevant details.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Please describe the use case for this feature and how it would be beneficial to the users.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: If there are any related issues, bugs, or feature requests, please provide links or references to them.
+      placeholder: 
+  - type: textarea
+    id: priority
+    attributes:
+      label: Priority
+      description: Please specify the priority of this feature request, with 1 being the highest priority and 5 being the lowest.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Please provide any other relevant information that you think would help the development team understand and evaluate the feature request.
+      placeholder: Any relevant constraints, dependencies, alternative solutions, etc.

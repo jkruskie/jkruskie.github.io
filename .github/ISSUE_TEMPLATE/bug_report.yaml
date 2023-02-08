@@ -1,0 +1,65 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "from QA", "to Dev"]
+assignees:
+  - loesel19
+body:
+  - type: markdown
+    attributes:
+      label: Information
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce the issue
+      description: Please describe the steps to reproduce the issue.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected Result
+      description: Please describe what you expected to happen when you followed the steps.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual Result
+      description: Please describe what actually happened when you followed the steps.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please provide information about the environment you're running on, such as operating system, browser, etc.
+      placeholder: Windows 10, Google Chrome v80...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Please provide any other relevant information that you think would help diagnose the issue.
+      placeholder: Any error messages, related issues, etc.

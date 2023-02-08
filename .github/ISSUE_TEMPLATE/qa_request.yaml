@@ -1,0 +1,49 @@
+name: QA Request
+description: Request for QA review of updates/changes
+title: "[QA Request]: "
+labels: ["QA Request", "from Dev", "to QA"]
+assignees:
+  - jkruskie
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting this QA Request!
+  - type: textarea
+    id: changes-made
+    attributes:
+      label: What changes have been made?
+      description: Please provide a detailed description of the updates/changes that have been made.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: testing-scope
+    attributes:
+      label: Testing scope
+      description: Please specify the testing scope, including the features/functionalities that need to be tested and the expected outcomes.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: testing-environments
+    attributes:
+      label: Testing environments
+      description: Please specify the testing environments, including the operating systems, browsers, etc. that need to be tested on.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: target-deadline
+    attributes:
+      label: Target deadline
+      description: Please specify the target deadline for the QA review.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Please provide any other relevant information that you think would help the QA team review the changes.
+      placeholder: Any special considerations, related issues, etc.
